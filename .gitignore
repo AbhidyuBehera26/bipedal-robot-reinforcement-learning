@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# TensorBoard logs and local logs
+log_tb_bipedal_PPO/
+logs_bipedal_PPO/
+tb_logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
