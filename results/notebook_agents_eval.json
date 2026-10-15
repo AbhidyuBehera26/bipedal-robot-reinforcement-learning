@@ -1,0 +1,200 @@
+{
+  "config": {
+    "episodes": 100,
+    "max_steps": 2000,
+    "workers": 2,
+    "out": "results/notebook_agents_eval.json"
+  },
+  "results": {
+    "random [stochastic]": {
+      "n_seeds": 1,
+      "success_rate": [
+        0.0,
+        0.0
+      ],
+      "fall_rate": [
+        68.0,
+        0.0
+      ],
+      "distance_pct": [
+        1.4965608706549989,
+        0.0
+      ],
+      "base_reward": [
+        -63.27119787772497,
+        0.0
+      ],
+      "v3_score": [
+        -106.35211745234218,
+        0.0
+      ],
+      "energy": [
+        0.5006813294131879,
+        0.0
+      ],
+      "jerk": [
+        0.663109989219332,
+        0.0
+      ],
+      "tilt": [
+        0.4176006750744228,
+        0.0
+      ],
+      "per_seed_success": [
+        0.0
+      ]
+    },
+    "notebook/Basic_Reward [deterministic]": {
+      "n_seeds": 1,
+      "success_rate": [
+        4.0,
+        0.0
+      ],
+      "fall_rate": [
+        96.0,
+        0.0
+      ],
+      "distance_pct": [
+        36.707095657076145,
+        0.0
+      ],
+      "base_reward": [
+        37.40362468719482,
+        0.0
+      ],
+      "v3_score": [
+        -30.24862804889679,
+        0.0
+      ],
+      "energy": [
+        0.8707724076509475,
+        0.0
+      ],
+      "jerk": [
+        0.15529066837375147,
+        0.0
+      ],
+      "tilt": [
+        0.5994390737191444,
+        0.0
+      ],
+      "per_seed_success": [
+        4.0
+      ]
+    },
+    "notebook/Basic_Reward [stochastic]": {
+      "n_seeds": 1,
+      "success_rate": [
+        46.0,
+        0.0
+      ],
+      "fall_rate": [
+        54.0,
+        0.0
+      ],
+      "distance_pct": [
+        73.82399232046946,
+        0.0
+      ],
+      "base_reward": [
+        214.66542205492652,
+        0.0
+      ],
+      "v3_score": [
+        89.17317573547363,
+        0.0
+      ],
+      "energy": [
+        0.8525685894489289,
+        0.0
+      ],
+      "jerk": [
+        0.3242622719301183,
+        0.0
+      ],
+      "tilt": [
+        0.5561104971041636,
+        0.0
+      ],
+      "per_seed_success": [
+        46.0
+      ]
+    },
+    "notebook/Task2_Smooth_Gait [deterministic]": {
+      "n_seeds": 1,
+      "success_rate": [
+        0.0,
+        0.0
+      ],
+      "fall_rate": [
+        100.0,
+        0.0
+      ],
+      "distance_pct": [
+        2.836504854853191,
+        0.0
+      ],
+      "base_reward": [
+        -89.78795341968535,
+        0.0
+      ],
+      "v3_score": [
+        -92.0085459136963,
+        0.0
+      ],
+      "energy": [
+        0.0037939446209929884,
+        0.0
+      ],
+      "jerk": [
+        0.000557734126752421,
+        0.0
+      ],
+      "tilt": [
+        0.40969049255247875,
+        0.0
+      ],
+      "per_seed_success": [
+        0.0
+      ]
+    },
+    "notebook/Task2_Smooth_Gait [stochastic]": {
+      "n_seeds": 1,
+      "success_rate": [
+        0.0,
+        0.0
+      ],
+      "fall_rate": [
+        68.0,
+        0.0
+      ],
+      "distance_pct": [
+        0.9389548131397791,
+        0.0
+      ],
+      "base_reward": [
+        -67.75940894097866,
+        0.0
+      ],
+      "v3_score": [
+        -130.33824996948243,
+        0.0
+      ],
+      "energy": [
+        0.6310357636213303,
+        0.0
+      ],
+      "jerk": [
+        0.8259148327532648,
+        0.0
+      ],
+      "tilt": [
+        0.4125480493900489,
+        0.0
+      ],
+      "per_seed_success": [
+        0.0
+      ]
+    }
+  }
+}
